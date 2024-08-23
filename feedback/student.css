@@ -1,0 +1,93 @@
+/* Resetting margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif ; 
+    color: #333;
+    text-align: center;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Fieldset styling for distinct boxes */
+fieldset {
+    border: 2px solid rgba(0, 0, 0, 0.5); /* Light gray border for fieldset */
+    border-radius: 8px; /* Rounded corners */
+    background-color: transparent; /* No background color */
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+/* Legend styling for distinct box titles */
+legend {
+    font-weight: bold;
+    color: #0056b3; /* Darker blue color for legend text */
+    text-align: left; /* Center align legend text */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: left; 
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #0056b3; /* Dark blue background for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003d80; /* Darker blue background on hover */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.heading{
+    color: red;
+}

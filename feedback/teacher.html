@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Feedback Form</title>
+    <link rel="stylesheet" href="teacher.css">
+    <script src="teacher.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+        <header>
+            <h1>Teacher Feedback Form</h1>
+        </header>
+        <main>
+            <form id="feedbackForm">
+                <fieldset>
+                    <legend>Student and Teacher Details</legend>
+                    
+        
+                    
+                    <label for="teacherId">Teacher ID:</label>
+                    <input type="text" id="teacherId" name="teacherId" required><br><br>
+                    
+
+                    <label for="studentPrn">Student PRN:</label>
+                    <input type="text" id="studentPrn" name="studentPrn" required><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feedback Questions</legend>
+                    
+                    <legend>1. How clear were the teacher's explanations?</legend><br>
+                    <label><input type="radio" id="clarity1" name="clarity" value="1" required> 1 - Very Poor</label>
+                    <label><input type="radio" id="clarity2" name="clarity" value="2"> 2 - Poor</label>
+                    <label><input type="radio" id="clarity3" name="clarity" value="3"> 3 - Average</label>
+                    <label><input type="radio" id="clarity4" name="clarity" value="4"> 4 - Good</label>
+                    <label><input type="radio" id="clarity5" name="clarity" value="5"> 5 - Excellent</label><br><br>
+                    
+                    <legend>2. How engaging were the teacher's lectures?</legend><br>
+                    <label><input type="radio" id="engagement1" name="engagement" value="1" required> 1 - Very Poor</label>
+                    <label><input type="radio" id="engagement2" name="engagement" value="2"> 2 - Poor</label>
+                    <label><input type="radio" id="engagement3" name="engagement" value="3"> 3 - Average</label>
+                    <label><input type="radio" id="engagement4" name="engagement" value="4"> 4 - Good</label>
+                    <label><input type="radio" id="engagement5" name="engagement" value="5"> 5 - Excellent</label><br><br>
+                    
+                    <legend>3. How supportive was the teacher in addressing your concerns?</legend><br>
+                    <label><input type="radio" id="support1" name="support" value="1" required> 1 - Very Poor</label>
+                    <label><input type="radio" id="support2" name="support" value="2"> 2 - Poor</label>
+                    <label><input type="radio" id="support3" name="support" value="3"> 3 - Average</label>
+                    <label><input type="radio" id="support4" name="support" value="4"> 4 - Good</label>
+                    <label><input type="radio" id="support5" name="support" value="5"> 5 - Excellent</label><br><br>
+                    
+                </fieldset>
+
+                <button id="submitButton">Submit Feedback</button>
+                <p id="message"></p>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Teacher Feedback. All rights reserved.</p>
+        </footer>
+        
+    </div>
+</body>
+</html>

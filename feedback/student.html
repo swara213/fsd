@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="student.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Student Feedback Form</h1>
+        </header>
+        <main>
+            <form id="feedbackForm">
+                <fieldset>
+                    <legend>Student Details</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="prn">PRN:</label>
+                    <input type="text" id="prn" name="prn" required><br><br>
+                    
+                    <label for="year">Year:</label>
+                    <input type="text" id="year" name="year" required><br><br>
+                    
+                    <label for="panel">Panel:</label>
+                    <input type="text" id="panel" name="panel" required><br><br>
+
+                    <label for="attendance">Attendance:</label>
+                    <input type="number" id="attendance" name="attendance" required><br><br>
+                    
+                </fieldset>
+                
+                
+                <fieldset>
+                    <legend>Full Stack Development</legend>
+                        
+                        <label class = "heading">COURSE FEEDBACK</label>
+                        <legend>1. How would you rate the overall quality of the course materials provided?</legend>
+                        <label><input type="radio" name="quality_materials" value="1" required> 1 - Poor</label>
+                        <label><input type="radio" name="quality_materials" value="2"> 2 - Fair</label>
+                        <label><input type="radio" name="quality_materials" value="3"> 3 - Good</label>
+                        <label><input type="radio" name="quality_materials" value="4"> 4 - Very Good</label>
+                        <label><input type="radio" name="quality_materials" value="5"> 5 - Excellent</label><br><br>
+                   
+
+            
+                        <legend>2. How satisfied are you with the responsiveness of the course instructors?</legend>
+                        <label><input type="radio" name="instructor_responsiveness" value="1" required> 1 - Very Dissatisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="2"> 2 - Dissatisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="3"> 3 - Neutral</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="4"> 4 - Satisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="5"> 5 - Very Satisfied</label><br><br>
+            
+
+    
+                        <label class = "heading">TEACHER FEEDBACK</labeL><br>
+                        <legend>1. The clarity of the teacher's explanations:</legend><br>
+                        <label><input type="radio" name="fsd_clarity" value="1" required> 1 - Poor</label>
+                        <label><input type="radio" name="fsd_clarity" value="2"> 2 - Fair</label>
+                        <label><input type="radio" name="fsd_clarity" value="3"> 3 - Good</label>
+                        <label><input type="radio" name="fsd_clarity" value="4"> 4 - Very Good</label>
+                        <label><input type="radio" name="fsd_clarity" value="5"> 5 - Excellent</label><br><br>
+
+                        <legend>2. The teacher's knowledge of the subject:</legend><br>
+                        <label><input type="radio" name="fsd_knowledge" value="1" required> 1 - Poor</label>
+                        <label><input type="radio" name="fsd_knowledge" value="2"> 2 - Fair</label>
+                        <label><input type="radio" name="fsd_knowledge" value="3"> 3 - Good</label>
+                        <label><input type="radio" name="fsd_knowledge" value="4"> 4 - Very Good</label>
+                        <label><input type="radio" name="fsd_knowledge" value="5"> 5 - Excellent</label><br><br>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Big Data </legend>
+                    <label class = "heading">COURSE FEEDBACK</label>
+                    
+                        <legend>1. How would you rate the overall quality of the course materials provided?</legend>
+                        <label><input type="radio" name="quality_materials" value="1" required> 1 - Poor</label>
+                        <label><input type="radio" name="quality_materials" value="2"> 2 - Fair</label>
+                        <label><input type="radio" name="quality_materials" value="3"> 3 - Good</label>
+                        <label><input type="radio" name="quality_materials" value="4"> 4 - Very Good</label>
+                        <label><input type="radio" name="quality_materials" value="5"> 5 - Excellent</label><br><br>
+                   
+
+            
+                        <legend>2. How satisfied are you with the responsiveness of the course instructors?</legend>
+                        <label><input type="radio" name="instructor_responsiveness" value="1" required> 1 - Very Dissatisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="2"> 2 - Dissatisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="3"> 3 - Neutral</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="4"> 4 - Satisfied</label>
+                        <label><input type="radio" name="instructor_responsiveness" value="5"> 5 - Very Satisfied</label><br><br>
+            
+    
+    
+                        <label class = "heading">TEACHER FEEDBACK</labeL><br>
+                            <legend>1. The clarity of the teacher's explanations:</legend><br>
+                            <label><input type="radio" name="bd_clarity" value="1" required> 1 - Poor</label>
+                            <label><input type="radio" name="bd_clarity" value="2"> 2 - Fair</label>
+                            <label><input type="radio" name="bd_clarity" value="3"> 3 - Good</label>
+                            <label><input type="radio" name="bd_clarity" value="4"> 4 - Very Good</label>
+                            <label><input type="radio" name="bd_clarity" value="5"> 5 - Excellent</label><br><br>
+    
+                            <legend>2. The teacher's knowledge of the subject:</legend><br>
+                            <label><input type="radio" name="bd_knowledge" value="1" required> 1 - Poor</label>
+                            <label><input type="radio" name="bd_knowledge" value="2"> 2 - Fair</label>
+                            <label><input type="radio" name="bd_knowledge" value="3"> 3 - Good</label>
+                            <label><input type="radio" name="bd_knowledge" value="4"> 4 - Very Good</label>
+                            <label><input type="radio" name="bd_knowledge" value="5"> 5 - Excellent</label><br><br>
+    
+
+
+                </fieldset>
+
+                
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Student Feedback. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
